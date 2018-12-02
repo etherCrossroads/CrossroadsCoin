@@ -23,7 +23,7 @@ Main net: 0xEc50DD65ec89fA3DEdA616717cDbf08a63Ff379F, https://etherscan.io/token
    ether的上限，当x为零时的兑换比例，当x达到筹集上限时的兑换比例。其中，iniRate和minRate需满足iniRate > minRate。
    这里定义rate(x) = iniRate – x / k；将destEtherNum和minRate代入，得minRate = iniRate – destEtherNum / k，
    解得k = destEtherNum / (iniRate - minRate)。合约中设置的destEtherNum，iniRate和minRate的值分别为1000000，
-   20000，4000，所以k = 62.5，rate(x) = 20000 - x / 62.5，斜率曲线的示意图如下：
+   20000，4000，所以k = 62.5，rate(x) = 20000 - x / 62.5，兑换比例曲线的示意图如下：
     ![Exchange Rate Curve](docs/img/exchange_rate_curve.jpg)
     
    2. 其次，有了rate(x)的曲线之后，就可以计算代币发行量y与筹集ether个数x的关系，很明显的是，y是rate(x)的积分函数，最终
