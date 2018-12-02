@@ -1,8 +1,12 @@
 # 歧路币
 
+歧路币是基于Ethereum的一种新的代币，它符合ERC-20标准, 它还具有如下特性：
+1. 由合约实现的自动兑换和赎回；
+2. 由合约自动调节兑换比例；
 ## 合约地址
 
 Ropsten test net: 0xd914Ea0778a66bF9a0856a26f1169DbDAF69ffA1, https://ropsten.etherscan.io/token/0xd914Ea0778a66bF9a0856a26f1169DbDAF69ffA1
+
 Main net: 0xEc50DD65ec89fA3DEdA616717cDbf08a63Ff379F, https://etherscan.io/token/0xec50dd65ec89fa3deda616717cdbf08a63ff379f
 
 ## 特性
