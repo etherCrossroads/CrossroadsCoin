@@ -1,10 +1,13 @@
 # CrossroadsCoin
 
-CrossroadsCoin is a ERC-20 Token of ethereum, and it has some new feature: 1. exchanging ether and CRC implement by CRC contract; 2. automatically adjust the exchange rate by contract
+CrossroadsCoin is a ERC-20 Token of ethereum, and it has some new feature:
+1. exchanging ether and CRC implement by CRC contract;
+2. automatically adjust the exchange rate by contract;
 
 ## Contract Address
 
 Ropsten test net: 0xd914Ea0778a66bF9a0856a26f1169DbDAF69ffA1, https://ropsten.etherscan.io/token/0xd914Ea0778a66bF9a0856a26f1169DbDAF69ffA1
+
 Main net: 0xEc50DD65ec89fA3DEdA616717cDbf08a63Ff379F, https://etherscan.io/token/0xec50dd65ec89fa3deda616717cdbf08a63ff379f
 
 ## Features
@@ -14,7 +17,7 @@ Main net: 0xEc50DD65ec89fA3DEdA616717cDbf08a63Ff379F, https://etherscan.io/token
     the totalSupply of CRC increased until supply reach to CRC upper limits, 1 million; in the meanwhile, you can send CRC
     to CRC contract to redeem ether, the CRC you sent will be destroyed and the CRC totalSupply will decrease;
    2. Automatically adjust the exchange rate by contract: The exchange ratio of CRC decreases with the increase of 
-   total supply, the supply-demand relationship of CRC and exchange rate reference to [Exchange Rate](#Exchange Rate).
+   total supply, the supply-demand relationship of CRC and exchange rate reference to [Exchange Rate](#exchange-rate).
    
 ## Exchange Rate
    Main principles of CRC contract is: 
