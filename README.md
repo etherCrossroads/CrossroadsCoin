@@ -10,7 +10,7 @@ CrossroadsCoin is a ERC-20 Token of ethereum, and it has some new feature:
 
 Ropsten test net: 0xd914Ea0778a66bF9a0856a26f1169DbDAF69ffA1, https://ropsten.etherscan.io/token/0xd914Ea0778a66bF9a0856a26f1169DbDAF69ffA1
 
-Main net: 0xEc50DD65ec89fA3DEdA616717cDbf08a63Ff379F, https://etherscan.io/token/0xec50dd65ec89fa3deda616717cdbf08a63ff379f
+Main net: 0x0b1b4d51e727a9121a6c8dfd38a652ad5d710d07, https://etherscan.io/token/0x0b1b4d51e727a9121a6c8dfd38a652ad5d710d07
 
 ## Features
    CrossroadsCoin(CRC) is a new token based ethereum, it meets the standards of ERC-20. In the others, it also has these
@@ -38,10 +38,6 @@ Main net: 0xEc50DD65ec89fA3DEdA616717cDbf08a63Ff379F, https://etherscan.io/token
    totalSupply is calculus of rate(x). So, the finally relationship of y and x is y= iniRate\*x- x^2/(2\*k) (0 <= x <= 1000000), the        example image is:
    
    ![Supply Ether Curve](docs/img/supply_ether_curve.jpg)
-   
-## Exchange Fee
-   Exchange CRC and redeem ether should pay a certain percentage of the handling fee. It is defined by CRC contract, the
-   value is 1/10000 and it is can't adjust.
    
 ## Donate
    The ETH address of development is 0x60482a3dF6E9b0b268888f095E8A615680db47bE, thanks for you encouragement.

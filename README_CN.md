@@ -7,9 +7,9 @@
 2. 由合约自动调节兑换比例；
 ## 合约地址
 
-Ropsten test net: 0xd914Ea0778a66bF9a0856a26f1169DbDAF69ffA1, https://ropsten.etherscan.io/token/0xd914Ea0778a66bF9a0856a26f1169DbDAF69ffA1
+Ropsten测试网: 0x2b7eab2d826fd508394a8e147dc7a26b2581ef57, https://ropsten.etherscan.io/token/0x2b7eab2d826fd508394a8e147dc7a26b2581ef57
 
-Main net: 0xEc50DD65ec89fA3DEdA616717cDbf08a63Ff379F, https://etherscan.io/token/0xec50dd65ec89fa3deda616717cdbf08a63ff379f
+主网: 0x0b1b4d51e727a9121a6c8dfd38a652ad5d710d07, https://etherscan.io/token/0x0b1b4d51e727a9121a6c8dfd38a652ad5d710d07
 
 ## 特性
   歧路币是基于Ethereum的一种新的代币，它符合ERC-20标准，能够在Ethereum账户之间自由转移，同时，它具有如下特性：
@@ -31,9 +31,6 @@ Main net: 0xEc50DD65ec89fA3DEdA616717cDbf08a63Ff379F, https://etherscan.io/token
    2. 其次，有了rate(x)的曲线之后，就可以计算代币发行量y与筹集ether个数x的关系，很明显的是，y是rate(x)的积分函数，最终
     的计算结果为y= iniRate\*x- x^2/(2\*k) (0 <= x <= 1000000)，如下图：
     ![Supply Ether Curve](docs/img/supply_ether_curve.jpg)
-    
-## 手续费
-   歧路币的兑换和赎回需要支付一定比例的手续费，合约中定义的是万分之一，不可调整，这由合约实现。
-   
+
 ## 捐赠
    开发者的ETH地址为0x60482a3dF6E9b0b268888f095E8A615680db47bE。
